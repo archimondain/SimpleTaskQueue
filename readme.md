@@ -13,8 +13,9 @@ Each task is given by:
   * A function to execute when a task starts
   * A list of parameters for this function
   * A timeout (`nil` means no timetout)
-  * A function that will be called when a task ends
+  * A function that will be called when the task ends
   * A list of parameters for this function
+
 WARNING : the function to execute when a task ends MUST take one additional parameters
           of the form `%{result: result, timeout: has_timeouted}` which
           gives the function result and indicates whether the execution
