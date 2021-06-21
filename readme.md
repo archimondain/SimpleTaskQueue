@@ -17,9 +17,11 @@ Each task is given by:
   * A list of parameters for this function
 
 WARNING : the function to execute when a task ends MUST take one additional parameters
-          of the form `%{result: result, timeout: has_timeouted}` which
-          gives the function result and indicates whether the execution
-          terminated because of a timeout.
+          of the form 
+          
+          `%{result: result, timeout: has_timeouted}` 
+          
+which gives the function result and indicates whether the execution terminated because of a timeout.
 
 Call
 ````iex
