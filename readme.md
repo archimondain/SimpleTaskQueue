@@ -19,7 +19,7 @@ Each task is given by:
 WARNING : the function to execute when a task ends MUST take one additional parameters
           of the form 
           
-          `%{result: result, timeout: has_timeouted}` 
+          %{result: result, timeout: has_timeouted}
           
 which gives the function result and indicates whether the execution terminated because of a timeout.
 
